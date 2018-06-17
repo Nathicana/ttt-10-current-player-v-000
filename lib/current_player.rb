@@ -6,6 +6,7 @@ def turn_count(board)
   board.each do |token|
  if token != nil && token != "" && token != " "
    counter += 1
+   return board[counter]
   end
 end
 end
