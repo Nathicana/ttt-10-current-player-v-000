@@ -48,6 +48,7 @@ end
 
 
 def turn_count(board)
+   input = gets.strip
    index = input_to_index(input)
    counter = 0
   board.each do |token|
