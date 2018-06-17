@@ -48,6 +48,7 @@ end
 
 
 def turn_count(board)
+   index = input_to_index(input)
    counter = 0
   board.each do |token|
  if position_taken?(board, index) == true
