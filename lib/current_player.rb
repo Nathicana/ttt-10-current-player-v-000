@@ -2,11 +2,11 @@
 
 
 def turn_count(board)
-   counter = 1
+   counter = 0
   board.each do |token|
  if token == "O" || token == "X"
-  counter += 2
-   return counter
+  counter += 1
+   return token
   end
 end
 end
