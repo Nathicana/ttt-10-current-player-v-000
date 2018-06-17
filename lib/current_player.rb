@@ -7,7 +7,7 @@ def turn_count(board)
  if token == "X"
    counter += 1
  elsif token == "O"
-   counter += 2
+   counter += 1
    return counter
   end
 end
